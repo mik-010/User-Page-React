@@ -1,0 +1,37 @@
+:root {
+  --color-gray: gray;
+}
+
+.activity-container {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.point {
+  border-radius: 25px;
+  height: 7px;
+  width: 7px;
+}
+
+.activity-body {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.accessStatus {
+  font-weight: 600;
+}
+
+.user-status {
+  align-items: center;
+  color: var(--color-gray);
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  gap: 7px;
+}

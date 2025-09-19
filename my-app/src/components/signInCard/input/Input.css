@@ -1,0 +1,23 @@
+:root {
+  --color-shadow-black: rgba(0, 0, 0, 0.2);
+}
+
+.input {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 1px 3px var(--color-shadow-black);
+  min-width: 400px;
+  padding: 10px;
+}
+
+.input-purpose {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}

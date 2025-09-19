@@ -1,0 +1,61 @@
+:root {
+  --color-shadow-black: rgba(0, 0, 0, 0.1);
+  --color-gray: gray;
+  --color-gradient-blue: #155dfc;
+  --color-white: white;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.header {
+  background-color: var(--color-white);
+  box-shadow: 0 1px 3px var(--color-shadow-black);
+  width: 100%;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 20px;
+}
+
+.sparkles {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.sparkles-logo {
+  align-items: center;
+  background: linear-gradient(to right,rgb(117, 159, 237),rgb(5, 96, 252));
+  border-radius: 10px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.dashboard {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.log-out {
+  align-items: center;
+  background-color: var(--color-white);
+  border-color: var(--color-gray);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 5px 10px;
+}

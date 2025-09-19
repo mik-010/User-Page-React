@@ -1,0 +1,25 @@
+:root {
+  --color-shadow-black: rgba(0, 0, 0, 0.1);
+  --color-white: white;
+}
+
+.signin-wrapper {
+  background-color: var(--color-white);
+  border-radius: 15px;
+  box-shadow: 0px 10px 15px var(--color-shadow-black);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.signin-btn {
+  background: linear-gradient(to right,rgb(117, 159, 237),rgb(5, 96, 252));
+  border-radius: 15px;
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+}
