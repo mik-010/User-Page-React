@@ -24,7 +24,7 @@ export default function Welcome() {
   });
 
   return (
-    <>
+    <div className="welcome-container">
       <p className="message">Welcome back{user && <span>, {user.username}!</span>}</p>
       {!user && <p>Sign-in to access your dashboard</p>}
       {user && (
@@ -32,6 +32,6 @@ export default function Welcome() {
           Today is {weekday}, {formattedDate}
         </p>
       )}
-    </>
+    </div>
   );
 }

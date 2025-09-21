@@ -12,9 +12,9 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin: 300px auto;
+  margin: 100px auto;
   padding: 30px;
-  width: 400px;
+  max-width: 400px;
 }
 
 .article-text {
@@ -45,4 +45,10 @@
   font-size: 16px;
   height: 50px;
   width: 100px;
+}
+
+@media(max-width: 425px){
+  .article {
+    margin: 10px;
+  }
 }
